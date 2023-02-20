@@ -1,0 +1,30 @@
+* Task
+** Use JAVA 1.8 or 11
+** Implement missing classes
+** Implement the given interfaces (don't change the interfaces)
+** Logic
+*** Only EUR needs to be supported
+*** 3 types of accounts can exist
+**** Savings Account (should not allow a negative balance)
+**** Current/checking Account (positive and negative balances allowed, an account should have a max negative balance allowed in Euro)
+**** Loan Account (only negative balances allowed)
+*** Needs to support multithreaded execution
+** Use patterns where applicable (e. g. Factory, Builder, etc.)
+** Test cases need to be successful finally (you may add additional test cases which cover more details and edge cases)
+** No DB persistence required (just use a local object to simulate persistence)
+** No server runtime required (spring boot) or even a main to execute code. 
+** No additional framework or library must be added
+
+* DoD (Definition of Done)
+** Documentation
+** Test automation (QA)
+** Formatting, Imports
+** Code structure (Class names, package hierarchy and names)
+** Exception handling
+** Over all test coverage > 75 % (simple getter/setter not necessary)
+** Production ready code (and config if applicable)
+
+
+* Note
+** Return the final solution including the result of mvn clean install (don't delete target folders, etc.)
+** Protect the ZIP with a password (increase the chance passing the firewall, etc.)

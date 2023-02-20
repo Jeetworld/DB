@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 1.269 sec <<< FAILURE!
+loanBookingPositiveBalance(com.db.dbi.sdda.accounts.LoanTest)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: ***WARNING***You have made positive booking expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.db.dbi.sdda.accounts.LoanTest.loanBookingPositiveBalance(LoanTest.java:37)
+
+zeroBalance(com.db.dbi.sdda.accounts.LoanTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: ***WARNING***You have made positive booking expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.db.dbi.sdda.accounts.LoanTest.zeroBalance(LoanTest.java:54)
+
+savingsBookingNoFunds(com.db.dbi.sdda.accounts.SavingsTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: ***WARNING***Your current balance is in negative expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.db.dbi.sdda.accounts.SavingsTest.savingsBookingNoFunds(SavingsTest.java:49)
+
+savingsBookingSeveralBookingsOk(com.db.dbi.sdda.accounts.SavingsTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: ***WARNING***Your current balance is in negative expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.db.dbi.sdda.accounts.SavingsTest.savingsBookingSeveralBookingsOk(SavingsTest.java:41)
+
+bookingCheckingNotEnoughFunds(com.db.dbi.sdda.bl.BookingExecutorTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.db.dbi.sdda.dto.ITransferResult.isTransferOk()" because "transferResult" is null
+	at com.db.dbi.sdda.bl.BookingExecutorTest.bookingCheckingNotEnoughFunds(BookingExecutorTest.java:31)
+
+bookingCheckingOk(com.db.dbi.sdda.bl.BookingExecutorTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.db.dbi.sdda.dto.ITransferResult.isTransferOk()" because "transferResult" is null
+	at com.db.dbi.sdda.bl.BookingExecutorTest.bookingCheckingOk(BookingExecutorTest.java:23)
+
+bookingLoanFails(com.db.dbi.sdda.bl.BookingExecutorTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.db.dbi.sdda.dto.ITransferResult.isTransferOk()" because "transferResult" is null
+	at com.db.dbi.sdda.bl.BookingExecutorTest.bookingLoanFails(BookingExecutorTest.java:64)
+
+bookingLoanOk(com.db.dbi.sdda.bl.BookingExecutorTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.db.dbi.sdda.dto.ITransferResult.isTransferOk()" because "transferResult" is null
+	at com.db.dbi.sdda.bl.BookingExecutorTest.bookingLoanOk(BookingExecutorTest.java:56)
+
+bookingSavingsFails(com.db.dbi.sdda.bl.BookingExecutorTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.db.dbi.sdda.dto.ITransferResult.isTransferOk()" because "transferResult" is null
+	at com.db.dbi.sdda.bl.BookingExecutorTest.bookingSavingsFails(BookingExecutorTest.java:48)
+
+bookingSavingsOk(com.db.dbi.sdda.bl.BookingExecutorTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.db.dbi.sdda.dto.ITransferResult.isTransferOk()" because "transferResult" is null
+	at com.db.dbi.sdda.bl.BookingExecutorTest.bookingSavingsOk(BookingExecutorTest.java:40)
+

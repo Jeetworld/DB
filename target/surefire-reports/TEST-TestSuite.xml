@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="16" failures="10" name="TestSuite" time="0.208" errors="0" skipped="0">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="sun.boot.library.path" value="D:\Learning\IDE\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Learning\Automation\Selenium\Projects\interviewProjectTask"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Learning\Automation\Selenium\Projects\interviewProjectTask"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="D:\Learning\Automation\Selenium\Workspace\DB_workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1975014862548080662.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\Learning\IDE\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:/Learning/IDE/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;D:/Learning/IDE/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\java\openjdk\jdk-18.0.2.1\bin;C:\Program Files\Git\cmd;C:\maven\apache-maven-3.9.0\bin;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;;D:\Learning\IDE\eclipse;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="HP"/>
+    <property name="java.class.path" value="D:\Learning\IDE\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always install"/>
+    <property name="java.home" value="D:\Learning\IDE\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="D:\Learning\Automation\Selenium\Projects\interviewProjectTask\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="m2e.build.project.data.socket.port" value="50563"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.db.dbi.sdda.accounts.CheckingTest" name="checkingBookingNoFunds" time="0.186"/>
+  <testcase classname="com.db.dbi.sdda.accounts.CheckingTest" name="checkingBookingOk" time="0"/>
+  <testcase classname="com.db.dbi.sdda.accounts.CheckingTest" name="positiveTransaction" time="0"/>
+  <testcase classname="com.db.dbi.sdda.accounts.LoanTest" name="loanBookingNoFunds" time="0"/>
+  <testcase classname="com.db.dbi.sdda.accounts.LoanTest" name="loanBookingOk" time="0"/>
+  <testcase classname="com.db.dbi.sdda.accounts.LoanTest" name="loanBookingPositiveBalance" time="0.013">
+    <failure message="***WARNING***You have made positive booking expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: ***WARNING***You have made positive booking expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.db.dbi.sdda.accounts.LoanTest.loanBookingPositiveBalance(LoanTest.java:37)
+</failure>
+    <system-out>Loan entered amount is EUR 5000
+New loan balance is EUR 5000
+</system-out>
+  </testcase>
+  <testcase classname="com.db.dbi.sdda.accounts.LoanTest" name="zeroBalance" time="0.001">
+    <failure message="***WARNING***You have made positive booking expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: ***WARNING***You have made positive booking expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.db.dbi.sdda.accounts.LoanTest.zeroBalance(LoanTest.java:54)
+</failure>
+    <system-out>Loan entered amount is EUR 0
+Loan entered amount is EUR -4000
+Loan entered amount is EUR 5000
+Current balance is 1000
+</system-out>
+  </testcase>
+  <testcase classname="com.db.dbi.sdda.accounts.SavingsTest" name="savingsBookingNoFunds" time="0.001">
+    <failure message="***WARNING***Your current balance is in negative expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: ***WARNING***Your current balance is in negative expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.db.dbi.sdda.accounts.SavingsTest.savingsBookingNoFunds(SavingsTest.java:49)
+</failure>
+    <system-out>Savings entered amount is EUR -5000
+Your savings account balance is -5000
+</system-out>
+  </testcase>
+  <testcase classname="com.db.dbi.sdda.accounts.SavingsTest" name="savingsBookingOk" time="0"/>
+  <testcase classname="com.db.dbi.sdda.accounts.SavingsTest" name="savingsBookingSeveralBookingsOk" time="0.002">
+    <failure message="***WARNING***Your current balance is in negative expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: ***WARNING***Your current balance is in negative expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.db.dbi.sdda.accounts.SavingsTest.savingsBookingSeveralBookingsOk(SavingsTest.java:41)
+</failure>
+    <system-out>Savings entered amount is EUR -17
+Savings entered amount is EUR 70.56
+Savings entered amount is EUR 12.44
+Savings entered amount is EUR -99
+Current balance is -34
+</system-out>
+  </testcase>
+  <testcase classname="com.db.dbi.sdda.bl.BookingExecutorTest" name="bookingCheckingNotEnoughFunds" time="0.002">
+    <failure message="Cannot invoke &quot;com.db.dbi.sdda.dto.ITransferResult.isTransferOk()&quot; because &quot;transferResult&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.db.dbi.sdda.dto.ITransferResult.isTransferOk()&quot; because &quot;transferResult&quot; is null
+	at com.db.dbi.sdda.bl.BookingExecutorTest.bookingCheckingNotEnoughFunds(BookingExecutorTest.java:31)
+</failure>
+  </testcase>
+  <testcase classname="com.db.dbi.sdda.bl.BookingExecutorTest" name="bookingCheckingOk" time="0">
+    <failure message="Cannot invoke &quot;com.db.dbi.sdda.dto.ITransferResult.isTransferOk()&quot; because &quot;transferResult&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.db.dbi.sdda.dto.ITransferResult.isTransferOk()&quot; because &quot;transferResult&quot; is null
+	at com.db.dbi.sdda.bl.BookingExecutorTest.bookingCheckingOk(BookingExecutorTest.java:23)
+</failure>
+  </testcase>
+  <testcase classname="com.db.dbi.sdda.bl.BookingExecutorTest" name="bookingLoanFails" time="0.001">
+    <failure message="Cannot invoke &quot;com.db.dbi.sdda.dto.ITransferResult.isTransferOk()&quot; because &quot;transferResult&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.db.dbi.sdda.dto.ITransferResult.isTransferOk()&quot; because &quot;transferResult&quot; is null
+	at com.db.dbi.sdda.bl.BookingExecutorTest.bookingLoanFails(BookingExecutorTest.java:64)
+</failure>
+  </testcase>
+  <testcase classname="com.db.dbi.sdda.bl.BookingExecutorTest" name="bookingLoanOk" time="0">
+    <failure message="Cannot invoke &quot;com.db.dbi.sdda.dto.ITransferResult.isTransferOk()&quot; because &quot;transferResult&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.db.dbi.sdda.dto.ITransferResult.isTransferOk()&quot; because &quot;transferResult&quot; is null
+	at com.db.dbi.sdda.bl.BookingExecutorTest.bookingLoanOk(BookingExecutorTest.java:56)
+</failure>
+  </testcase>
+  <testcase classname="com.db.dbi.sdda.bl.BookingExecutorTest" name="bookingSavingsFails" time="0.001">
+    <failure message="Cannot invoke &quot;com.db.dbi.sdda.dto.ITransferResult.isTransferOk()&quot; because &quot;transferResult&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.db.dbi.sdda.dto.ITransferResult.isTransferOk()&quot; because &quot;transferResult&quot; is null
+	at com.db.dbi.sdda.bl.BookingExecutorTest.bookingSavingsFails(BookingExecutorTest.java:48)
+</failure>
+  </testcase>
+  <testcase classname="com.db.dbi.sdda.bl.BookingExecutorTest" name="bookingSavingsOk" time="0.001">
+    <failure message="Cannot invoke &quot;com.db.dbi.sdda.dto.ITransferResult.isTransferOk()&quot; because &quot;transferResult&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.db.dbi.sdda.dto.ITransferResult.isTransferOk()&quot; because &quot;transferResult&quot; is null
+	at com.db.dbi.sdda.bl.BookingExecutorTest.bookingSavingsOk(BookingExecutorTest.java:40)
+</failure>
+  </testcase>
+</testsuite>
